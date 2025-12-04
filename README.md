@@ -12,6 +12,7 @@ Este projeto implementa um chatbot baseado em Python com Flask, utilizando a API
 *   **Segurança:** Utiliza variáveis de ambiente (`.env`) para armazenar a chave da API do Gemini.
 
 ## 📂 Estrutura do Projeto
+```
 .
 ├── app.py # Aplicação Flask principal e lógica do backend.
 ├── requirements.txt # Dependências necessárias para rodar o projeto.
@@ -33,7 +34,7 @@ Este projeto implementa um chatbot baseado em Python com Flask, utilizando a API
 ├── templates/
 │ └── index.html # Template HTML da interface do chat.
 └── README.md # Este arquivo.
-
+```
 ## 🛠️ Pré-requisitos
 
 Você precisa ter o Python instalado (versão 3.7+ recomendada).
@@ -44,7 +45,6 @@ Você precisa ter o Python instalado (versão 3.7+ recomendada).
 
 Crie um ambiente virtual e instale as bibliotecas listadas no `requirements.txt`:
 
-```bash
 # 1. Crie e ative um ambiente virtual (opcional, mas recomendado)
 python -m venv venv
 source venv/bin/activate  # No Linux/macOS
