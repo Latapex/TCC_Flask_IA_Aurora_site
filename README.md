@@ -1,4 +1,3 @@
-# TCC_Flask_IA_Aurora_site
 # 🤖 Assistente Virtual com Memória e Base de Conhecimento (Gemini Flash)
 
 Este projeto implementa um chatbot baseado em Python com Flask, utilizando a API do Google Gemini (modelo Flash) para processamento de linguagem natural. O diferencial é a **persistência de conversas** (memória por sessão) e a capacidade de responder perguntas baseadas em uma **base de conhecimento customizável** carregada a partir de diversos tipos de arquivos.
@@ -67,17 +66,17 @@ O servidor estará acessível em http://0.0.0.0:10000 (ou na porta definida pela
 Acesse a URL no seu navegador.
 Nova Conversa: Clique em Limpar para iniciar uma nova sessão e gerar um novo session_id.
 Continuar Conversa: Se o session_id for mantido, o histórico será carregado do disco.
-📚 Base de Conhecimento
+## 📚 Base de Conhecimento
 O sistema lê todos os arquivos com extensões suportadas (.txt, .json, .pdf, .docx) dentro da pasta training_data/ e os concatena em um grande bloco de texto que serve como contexto para o Gemini.
 Arquivos de Treinamento Utilizados:
-treinamento.txt
-produtos.txt
-info.txt
-treinamento_hornets_aurora.txt
-info-mercado.txt
-perguntar-freq.txt
-atendimento.txt
-⚠️ Observações Importantes
-* Gemini API Key: A aplicação falhará ao iniciar se a variável de ambiente GEMINI_API_KEY não estiver definida, garantindo que o custo de API não seja acidentalmente incorrido.
-* Modelagem de Histórico: O call_gemini trata o histórico de conversas como mensagens sequenciais enviadas ao modelo. A instrução do sistema e a base de conhecimento são injetadas apenas na primeira mensagem do usuário da sessão para otimizar o uso do contexto e seguir a arquitetura de RAG (Retrieval-Augmented Generation) simples.
-* Bibliotecas de Documentos: Para ler arquivos .pdf e .docx, as bibliotecas PyPDF2 e python-docx são necessárias, conforme listado em requirements.txt.
+*treinamento.txt
+*produtos.txt
+*info.txt
+*treinamento_hornets_aurora.txt
+*info-mercado.txt
+*perguntar-freq.txt
+*atendimento.txt
+## ⚠️ Observações Importantes
+* **Gemini API Key:** A aplicação falhará ao iniciar se a variável de ambiente GEMINI_API_KEY não estiver definida, garantindo que o custo de API não seja acidentalmente incorrido.
+* **Modelagem de Histórico:** O call_gemini trata o histórico de conversas como mensagens sequenciais enviadas ao modelo. A instrução do sistema e a base de conhecimento são injetadas apenas na primeira mensagem do usuário da sessão para otimizar o uso do contexto e seguir a arquitetura de RAG (Retrieval-Augmented Generation) simples.
+* **Bibliotecas de Documentos:** Para ler arquivos .pdf e .docx, as bibliotecas PyPDF2 e python-docx são necessárias, conforme listado em requirements.txt.
