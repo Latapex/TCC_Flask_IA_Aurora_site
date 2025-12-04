@@ -69,13 +69,13 @@ Continuar Conversa: Se o session_id for mantido, o histórico será carregado do
 ## 📚 Base de Conhecimento
 O sistema lê todos os arquivos com extensões suportadas (.txt, .json, .pdf, .docx) dentro da pasta training_data/ e os concatena em um grande bloco de texto que serve como contexto para o Gemini.
 Arquivos de Treinamento Utilizados:
-*treinamento.txt
-*produtos.txt
-*info.txt
-*treinamento_hornets_aurora.txt
-*info-mercado.txt
-*perguntar-freq.txt
-*atendimento.txt
+* treinamento.txt
+* produtos.txt
+* info.txt
+* treinamento_hornets_aurora.txt
+* info-mercado.txt
+* perguntar-freq.txt
+* atendimento.txt
 ## ⚠️ Observações Importantes
 * **Gemini API Key:** A aplicação falhará ao iniciar se a variável de ambiente GEMINI_API_KEY não estiver definida, garantindo que o custo de API não seja acidentalmente incorrido.
 * **Modelagem de Histórico:** O call_gemini trata o histórico de conversas como mensagens sequenciais enviadas ao modelo. A instrução do sistema e a base de conhecimento são injetadas apenas na primeira mensagem do usuário da sessão para otimizar o uso do contexto e seguir a arquitetura de RAG (Retrieval-Augmented Generation) simples.
