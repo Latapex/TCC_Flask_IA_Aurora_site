@@ -44,13 +44,17 @@ Você precisa ter o Python instalado (versão 3.7+ recomendada).
 
 Crie um ambiente virtual e instale as bibliotecas listadas no `requirements.txt`:
 
-# 1. Crie e ative um ambiente virtual (opcional, mas recomendado)
+### 1. Crie e ative um ambiente virtual (opcional, mas recomendado)
+```
 python -m venv venv
 source venv/bin/activate  # No Linux/macOS
 # venv\Scripts\activate   # No Windows
+```
 
-# 2. Instale as dependências
+### 2. Instale as dependências
+```
 pip install -r requirements.txt
+```
 
 2. Configurar a Chave da API
 Crie um arquivo chamado .env na raiz do projeto e adicione sua chave da API do Gemini:
@@ -58,8 +62,9 @@ GEMINI_API_KEY="SUA_CHAVE_AQUI"
 
 3. Iniciar a Aplicação
 Execute o arquivo app.py:
+```
 python app.py
-
+```
 O servidor estará acessível em http://0.0.0.0:10000 (ou na porta definida pela variável de ambiente PORT).
 
 4. Interação com a Interface
