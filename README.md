@@ -78,6 +78,6 @@ info-mercado.txt
 perguntar-freq.txt
 atendimento.txt
 ⚠️ Observações Importantes
-Gemini API Key: A aplicação falhará ao iniciar se a variável de ambiente GEMINI_API_KEY não estiver definida, garantindo que o custo de API não seja acidentalmente incorrido.
-Modelagem de Histórico: O call_gemini trata o histórico de conversas como mensagens sequenciais enviadas ao modelo. A instrução do sistema e a base de conhecimento são injetadas apenas na primeira mensagem do usuário da sessão para otimizar o uso do contexto e seguir a arquitetura de RAG (Retrieval-Augmented Generation) simples.
-Bibliotecas de Documentos: Para ler arquivos .pdf e .docx, as bibliotecas PyPDF2 e python-docx são necessárias, conforme listado em requirements.txt.
+## Gemini API Key: A aplicação falhará ao iniciar se a variável de ambiente GEMINI_API_KEY não estiver definida, garantindo que o custo de API não seja acidentalmente incorrido.
+## Modelagem de Histórico: O call_gemini trata o histórico de conversas como mensagens sequenciais enviadas ao modelo. A instrução do sistema e a base de conhecimento são injetadas apenas na primeira mensagem do usuário da sessão para otimizar o uso do contexto e seguir a arquitetura de RAG (Retrieval-Augmented Generation) simples.
+## Bibliotecas de Documentos: Para ler arquivos .pdf e .docx, as bibliotecas PyPDF2 e python-docx são necessárias, conforme listado em requirements.txt.
