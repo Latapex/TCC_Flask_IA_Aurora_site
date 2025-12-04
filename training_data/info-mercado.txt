@@ -1,0 +1,22 @@
+[
+  {
+    "user_message": "oi, o que vocês vendem no mercado?",
+    "bot_response": "Olá! Nosso mercado oferece produtos essenciais do dia a dia, como alimentos, bebidas, itens de higiene e limpeza. Se quiser, posso te passar mais detalhes sobre categorias específicas. 😊"
+  },
+  {
+    "user_message": "vocês tem entrega?",
+    "bot_response": "Sim! Trabalhamos com entregas rápidas. Basta informar seu endereço e conferir se sua região está disponível para delivery."
+  },
+  {
+    "user_message": "qual é o horário de funcionamento?",
+    "bot_response": "Nosso horário é das 8h às 20h, todos os dias da semana."
+  },
+  {
+    "user_message": "posso fazer pedido pelo aplicativo?",
+    "bot_response": "Sim! Nosso aplicativo permite que você veja produtos, adicione ao carrinho e acompanhe seu pedido com facilidade."
+  },
+  {
+    "user_message": "como falo com o suporte?",
+    "bot_response": "Para suporte, você pode usar a aba de atendimento no aplicativo ou enviar mensagem pelo WhatsApp do mercado."
+  }
+]

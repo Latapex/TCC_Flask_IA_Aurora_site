@@ -1,0 +1,19 @@
+{
+  "produto": {
+    "nome": "Assistente Inteligente Atlas",
+    "descricao": "Um assistente virtual que ajuda você a automatizar tarefas, responder dúvidas e organizar rotinas.",
+    "beneficios": [
+      "Atendimento rápido e sem filas",
+      "Disponível 24 horas",
+      "Respostas claras e objetivas",
+      "Integração com WhatsApp e Telegram"
+    ],
+    "publico_alvo": "Clientes que precisam de suporte inteligente e automação simples no dia a dia.",
+    "como_usar": "Envie uma mensagem no Telegram e o assistente responde automaticamente.",
+    "suporte": {
+      "horario": "09:00 às 18:00",
+      "contato": "contato@atlas.com"
+    },
+    "seguranca": "Suas mensagens são mantidas sob sigilo e não são compartilhadas com terceiros."
+  }
+}

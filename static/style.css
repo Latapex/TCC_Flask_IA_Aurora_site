@@ -1,0 +1,186 @@
+/* RESET BÁSICO E FONTES */
+* {
+    /* Reseta margens e paddings e garante que o padding não aumente o tamanho do elemento */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Aplicando a fonte Inter a todos os elementos, incluindo formulários, para garantir consistência */
+    font-family: 'Inter', sans-serif; 
+}
+
+body {
+    /* Garante a fonte principal e estilo de fundo */
+    font-family: 'Inter', sans-serif; 
+    background-color: #f0f2f5; 
+    
+    /* Centraliza o painel na tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* CONTAINER PRINCIPAL DO CHAT */
+.panel {
+    background-color: #ffffff;
+    border-radius: 12px;
+    /* Sombra suave */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 700px; 
+    height: 90vh; 
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* CABEÇALHO */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #1e88e5; /* Azul primário */
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+/* NOVO: Wrapper para a imagem e o texto "Aurora AI" */
+.header-info {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o texto e a imagem */
+    flex-grow: 1;
+}
+
+/* NOVO: Estilo da Imagem de Perfil */
+.profile-pic {
+    width: 40px; /* Tamanho da imagem */
+    height: 40px;
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    object-fit: cover;
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    border: 2px solid white; /* Borda branca para destaque */
+}
+
+/* BOTÃO LIMPAR */
+#clear {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+    font-family: 'Inter', sans-serif; /* Garante a fonte */
+}
+
+#clear:hover {
+    background-color: #42a5f5;
+    border-color: white;
+}
+
+/* ÁREA DE MENSAGENS */
+#messages {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    background-color: #f7f7f7; 
+}
+
+/* ESTILO DAS MENSAGENS INDIVIDUAIS */
+.msg {
+    max-width: 80%;
+    padding: 10px 15px;
+    border-radius: 18px;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+/* Mensagens do Usuário */
+.msg.user {
+    align-self: flex-end; 
+    background-color: #1e88e5; 
+    color: white;
+    border-bottom-right-radius: 2px; 
+}
+
+/* Mensagens do Bot */
+.msg.bot {
+    align-self: flex-start; 
+    background-color: #e0e0e0; 
+    color: #333;
+    border-bottom-left-radius: 2px; 
+}
+
+/* RODAPÉ (Área de entrada) */
+footer {
+    display: flex;
+    padding: 10px 20px;
+    border-top: 1px solid #e0e0e0;
+    background-color: #ffffff;
+}
+
+/* CAIXA DE TEXTO (TEXTAREA) */
+#prompt {
+    flex-grow: 1;
+    resize: none; 
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    min-height: 40px;
+    max-height: 100px; 
+    transition: border-color 0.2s, box-shadow 0.2s;
+    /* Garante a fonte Inter no textarea */
+    font-family: 'Inter', sans-serif; 
+}
+
+#prompt:focus {
+    border-color: #1e88e5;
+    box-shadow: 0 0 0 2px rgba(30, 136, 229, 0.2);
+    outline: none;
+}
+
+/* BOTÃO ENVIAR */
+#send {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    align-self: flex-end; 
+    min-width: 80px;
+    font-family: 'Inter', sans-serif; /* Garante a fonte */
+}
+
+#send:hover {
+    background-color: #1565c0;
+}
+
+#send:disabled {
+    background-color: #90caf9; 
+    cursor: not-allowed;
+}
+
+/* RESPONSIVIDADE PARA TELAS MENORES (Celulares) */
+@media (max-width: 768px) {
+    .panel {
+        height: 100vh; 
+        max-width: none;
+        border-radius: 0;
+    }
+
+    body {
+        padding: 0;
+    }
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atendimento IA - Gemini Flash</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="panel">
+<header>
+    <!-- NOVO: Adiciona a imagem de perfil e o nome dentro de um wrapper para alinhamento -->
+    <div class="header-info">
+        <img src="../static/img/perfil.jpg" alt="Foto de Perfil da Aurora AI" class="profile-pic" 
+             onerror="this.onerror=null; this.src='https://placehold.co/40x40/5c6bc0/ffffff?text=AI';"
+        >
+        <strong>Aurora AI</strong>
+    </div>
+    
+    <button id="clear">Limpar</button>
+</header>
+
+
+<div id="messages"></div>
+
+
+<footer>
+<textarea id="prompt" placeholder="Digite sua mensagem..."></textarea>
+<button id="send">Enviar</button>
+</footer>
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>

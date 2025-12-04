@@ -1,0 +1,22 @@
+[
+  {
+    "user_message": "para que serve o aplicativo?",
+    "bot_response": "O aplicativo serve para facilitar suas compras: você pode ver produtos, adicionar ao carrinho, salvar favoritos e acompanhar seus pedidos em tempo real."
+  },
+  {
+    "user_message": "é seguro colocar meus dados?",
+    "bot_response": "Sim! Seus dados são protegidos e usados apenas para garantir que seus pedidos sejam entregues da forma correta."
+  },
+  {
+    "user_message": "como troco meu endereço no app?",
+    "bot_response": "No menu do aplicativo, vá em 'Minha Conta' e depois em 'Endereços'. Lá você pode editar ou adicionar um novo endereço."
+  },
+  {
+    "user_message": "o app mostra informações detalhadas dos produtos?",
+    "bot_response": "Sim! Na página de cada produto, você encontra fotos, descrição, preço, informações nutricionais e outras orientações importantes."
+  },
+  {
+    "user_message": "o app faz pagamento?",
+    "bot_response": "Ainda não! Por enquanto, você pode montar o carrinho e acompanhar produtos. O pagamento pode variar dependendo do sistema atual do mercado."
+  }
+]

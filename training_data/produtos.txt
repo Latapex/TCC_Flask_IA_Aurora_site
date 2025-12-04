@@ -1,0 +1,170 @@
+[
+  {
+    "nome": "Detergente",
+    "descricao": "É um agente de limpeza líquido que remove gordura e sujeira através de tensoativos e outros componentes.",
+    "preco": 2.69,
+    "categoria": "Classificado pelo pH e pela função (louças, multiuso etc).",
+    "ingredientes": [
+      "Água",
+      "Tensoativos",
+      "Coadjuvantes",
+      "Conservantes",
+      "Quelantes",
+      "Agentes alcalinizantes",
+      "Glicerina",
+      "Espessantes",
+      "Corantes",
+      "Fragrâncias",
+      "Enzimas"
+    ]
+  },
+  {
+    "nome": "Desinfetante",
+    "descricao": "Produto para desinfecção de ambientes, eliminando bactérias, fungos e vírus.",
+    "preco": 15.00,
+    "categoria": "Classificado por nível de ação, finalidade e tipo de uso.",
+    "ingredientes": [
+      "Cloreto de benzalcônio",
+      "Hipoclorito de sódio",
+      "Peróxido de hidrogênio",
+      "Tensoativos",
+      "Conservantes",
+      "Quelantes",
+      "Fragrâncias",
+      "Corantes",
+      "Solubilizantes"
+    ]
+  },
+  {
+    "nome": "Esponja",
+    "descricao": "Utensílio poroso e absorvente usado na limpeza de louças e superfícies.",
+    "preco": 9.99,
+    "categoria": "Poliuretano, melamina, celulose, lã de aço, aço inoxidável, bucha vegetal.",
+    "ingredientes": [
+      "Poliuretano",
+      "Fibras sintéticas",
+      "Abrasivo"
+    ]
+  },
+  {
+    "nome": "Carne Vermelha",
+    "descricao": "Carne muscular de mamíferos como bovinos, suínos e ovinos. Rica em proteínas e ferro.",
+    "preco": 38.00,
+    "categoria": "Classificação por animal, por corte e por nível de qualidade.",
+    "ingredientes": [
+      "Água",
+      "Proteínas",
+      "Gorduras",
+      "Minerais",
+      "Vitaminas",
+      "Carboidratos"
+    ]
+  },
+  {
+    "nome": "Carne Branca",
+    "descricao": "Carne de aves e peixes, geralmente mais magra e de cor clara.",
+    "preco": 25.00,
+    "categoria": "Classificada por tipo de animal: aves e peixes.",
+    "ingredientes": [
+      "Água",
+      "Proteínas",
+      "Gorduras",
+      "Vitaminas",
+      "Minerais",
+      "Carboidratos"
+    ]
+  },
+  {
+    "nome": "Peixe",
+    "descricao": "Alimento classificado por tipo de esqueleto, habitat e teor de gordura.",
+    "preco": 119.90,
+    "categoria": "Peixes ósseos: tilápia, bacalhau, salmão.",
+    "ingredientes": [
+      "Água",
+      "Proteínas",
+      "Gorduras",
+      "Minerais",
+      "Vitaminas",
+      "Carboidratos"
+    ]
+  },
+  {
+    "nome": "Arroz",
+    "descricao": "Grão rico em carboidratos, vitaminas e minerais, base da alimentação no Brasil.",
+    "preco": 13.99,
+    "categoria": "Classificado por processamento, tamanho e qualidade.",
+    "ingredientes": [
+      "Carboidratos",
+      "Água",
+      "Proteínas",
+      "Fibras",
+      "Vitaminas",
+      "Minerais",
+      "Gorduras"
+    ]
+  },
+  {
+    "nome": "Feijão",
+    "descricao": "Leguminosa rica em proteínas vegetais, fibras e minerais.",
+    "preco": 7.49,
+    "categoria": "Classificado por espécie, cor e qualidade.",
+    "ingredientes": [
+      "Água",
+      "Proteínas",
+      "Carboidratos",
+      "Fibras",
+      "Minerais"
+    ]
+  },
+  {
+    "nome": "Óleo de Cozinha",
+    "descricao": "Gordura líquida usada para frituras, preparos e temperos.",
+    "preco": 5.98,
+    "categoria": "Classificado pela origem e tipo de processamento.",
+    "ingredientes": [
+      "Ácido linoleico (ômega-6)",
+      "Ácido palmítico",
+      "Ácido oleico (ômega-9)",
+      "Ácido esteárico",
+      "Ácido linolênico"
+    ]
+  },
+  {
+    "nome": "Farinha",
+    "descricao": "Pó obtido da moagem de grãos, sementes ou raízes.",
+    "preco": 5.39,
+    "categoria": "Classificada pela origem e presença de glúten.",
+    "ingredientes": [
+      "Carboidratos",
+      "Proteínas",
+      "Fibras",
+      "Vitaminas"
+    ]
+  },
+  {
+    "nome": "Açúcar",
+    "descricao": "Carboidrato cristalizado, principalmente sacarose extraída da cana.",
+    "preco": 7.99,
+    "categoria": "Classificado por grau de refinamento, origem e uso.",
+    "ingredientes": [
+      "Carbono",
+      "Hidrogênio",
+      "Oxigênio"
+    ]
+  },
+  {
+    "nome": "Amaciante (Tixan)",
+    "descricao": "Produto que deixa roupas macias e perfumadas, reduzindo atrito do tecido.",
+    "preco": 27.99,
+    "categoria": "Classificado por formato, concentração, composição e finalidade.",
+    "ingredientes": [
+      "Água",
+      "Tensoativos",
+      "Fragrâncias",
+      "Conservantes",
+      "Corantes",
+      "Espessantes",
+      "Coadjuvantes"
+    ]
+  }
+]

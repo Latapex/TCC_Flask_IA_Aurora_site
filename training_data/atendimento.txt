@@ -1,0 +1,58 @@
+[
+  {
+    "user_message": "oi",
+    "bot_response": "Olá! Seja bem-vindo ao nosso mercado. Como posso te ajudar hoje?"
+  },
+  {
+    "user_message": "quais tipos de produtos vocês vendem?",
+    "bot_response": "Temos alimentos, bebidas, produtos de higiene, limpeza, frios, verduras, carnes e itens do dia a dia. Se quiser, posso listar categorias específicas."
+  },
+  {
+    "user_message": "vocês vendem carne?",
+    "bot_response": "Sim! Temos carnes frescas, frango, suíno e opções congeladas. Posso te informar os cortes disponíveis."
+  },
+  {
+    "user_message": "tem entrega?",
+    "bot_response": "Temos sim! Basta informar seu endereço para verificar a disponibilidade na sua região."
+  },
+  {
+    "user_message": "qual o horário de funcionamento?",
+    "bot_response": "Funcionamos das 8h às 20h, todos os dias da semana."
+  },
+  {
+    "user_message": "como vejo os produtos?",
+    "bot_response": "Você pode acessar a aba de categorias ou usar a busca para encontrar produtos rapidamente."
+  },
+  {
+    "user_message": "como adiciono ao carrinho?",
+    "bot_response": "Abra o produto desejado e toque no botão 'Adicionar ao carrinho'."
+  },
+  {
+    "user_message": "como falo com o suporte?",
+    "bot_response": "Você pode usar a aba de atendimento no aplicativo ou enviar mensagem pelo WhatsApp do mercado."
+  },
+  {
+    "user_message": "vocês aceitam pix?",
+    "bot_response": "Sim! Aceitamos Pix, cartão e dinheiro, dependendo da unidade."
+  },
+  {
+    "user_message": "o produto tem informação nutricional?",
+    "bot_response": "Sim! Na página de cada produto você encontra descrição, ingredientes e informações nutricionais."
+  },
+  {
+    "user_message": "como troco o endereço?",
+    "bot_response": "No menu do aplicativo, vá em 'Minha Conta' → 'Endereços'. Lá você pode editar ou adicionar um novo."
+  },
+  {
+    "user_message": "como vejo meus pedidos?",
+    "bot_response": "Abra a aba 'Meus Pedidos'. Lá você acompanha o status de cada entrega."
+  },
+  {
+    "user_message": "tem promoções hoje?",
+    "bot_response": "Sim! A seção 'Ofertas' do app mostra todos os itens com desconto."
+  },
+  {
+    "user_message": "posso salvar produtos favoritos?",
+    "bot_response": "Pode! Basta tocar no ícone de coração na página do produto."
+  }
+]
